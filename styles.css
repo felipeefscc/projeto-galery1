@@ -75,3 +75,14 @@
     opacity: 1;
 
 }
+
+@media screen and (max-width: 800px){
+
+    #modal_img{
+        width: 80vw;
+        transform: scale(0);
+        transition: all linear .3s;
+    }
+
+    
+}
